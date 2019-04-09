@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="semua">
+                <nav class="navbar navbar-default">
+                        <div class="container-fluid ">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="./index.html">BERANDA</a></li>
+                                <li><a href="./layanan.html">LAYANAN</a></li>
+                                <li><a href="./testimoni.html">TESTIMONI</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                <div align="center">
+                    <h1>PENDAPAT ORANG-ORANG</h1>
+                    <br>
+                    <br>
+                </div>    
+                <div class="row">
+                    <div align="justify" class="col-xs-4">
+                        <p>Ut tincidunt dolor felis, et accumsan ante elementum in. Fusce convallis, dui ac malesuada posuere, ante diam viverra ligula, eu mollis sapien ex quis ex.</p>
+                        <img class="center" src="ttd1.png" alt="gambar">
+                        <p>PAUL SMITH, MANHATTAN</p>
+                    </div>
+                    <div align="justify" class="col-xs-4">
+                        <p>Donec eros massa, gravida ac lectus et, pharetra interdum lectus. Sed vel scelerisque quam, id fringilla ante. Vivamus sagittis velit quis dictum ultricies.</p>
+                        <img class="center" src="ttd2.png" alt="gambar">
+                        <p>JANE CROFT, BOSTON</p>
+                    </div>
+                    <div align="justify" class="col-xs-4">
+                        <p>Vestibulum mattis diam quis interdum suscipit. Nam orci ipsum, scelerisque elementum ultricies sit amet, facilisis eu eros. Phasellus turpis ante, venenatis.</p>
+                        <img class="center" src="ttd3.png" alt="gambar">
+                        <p>MICHELLE ECCLESTONE, CHICAGO</p>
+                    </div>
+                </div>
+        
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        Masukkan Testimoni
+                    </button>
+              
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Testimoni</h4>
+                                </div>
+                                <div>
+                                    <form method="POST" action="https://formspree.io/sokaqe@getnada.com">
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <label for="InputName">Nama</label>
+                                                <input type="text" class="form-control" id="InputNamwe" placeholder="Nama">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="InputMessage">Testimoni</label>
+                                                <input type="text" style="height:100px" class="form-control" id="InputMessage" placeholder="Ketikan testimoni anda...">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+                                            <button type="button" class="btn btn-primary">Kirim</button>
+                                        </div>
+                                    </form>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+                    <!-- Include all compiled plugins (below), or include individual files as needed -->
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+                </div>
+        </div>
+
+        <script>
+                $(function () {
+                  $('#myTab li:last-child a').tab('show')
+                })
+        </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    </body>
+</html>
